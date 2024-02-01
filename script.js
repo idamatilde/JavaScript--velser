@@ -16,3 +16,9 @@ function click() {
     console.log("Alkohol");
   }
 }
+
+const beer = document.querySelector("img(alt=øl)");
+
+console.log(this.alt);
+if (this.alt == "øl" || this.alt == "snaps") {
+}

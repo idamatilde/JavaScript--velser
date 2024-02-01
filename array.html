@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="playliste">min liste</h1>
+    <ul></ul>
+
+    <script>
+        const frugter = ["3 AM", "Simulation Swarm", "Bettlebum", "She Won't Go Away", "The Bug Collector", "Sounds Like Love", "Far Away", "LFT", "Venom", "TNight Owl"];
+        const ul = document.querySelector("ul");
+
+        frugter.forEach(bygListen);
+        function bygListen(elm) {
+            console.log(elm)
+            ul.innerHTML += "<li>" + elm + "</li>"
+        }
+    </script>
+</body>
+
+</html>
